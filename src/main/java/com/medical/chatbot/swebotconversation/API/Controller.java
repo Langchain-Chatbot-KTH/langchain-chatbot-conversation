@@ -1,8 +1,8 @@
-package com.medical.chatbot.medicalchatbotconversation.API;
+package com.medical.chatbot.swebotconversation.API;
 
-import com.medical.chatbot.medicalchatbotconversation.BO.Entity.Conversation;
-import com.medical.chatbot.medicalchatbotconversation.BO.Entity.Message;
-import com.medical.chatbot.medicalchatbotconversation.BO.Services.ConversationService;
+import com.medical.chatbot.swebotconversation.BO.Entity.Conversation;
+import com.medical.chatbot.swebotconversation.BO.Entity.Message;
+import com.medical.chatbot.swebotconversation.BO.Services.ConversationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

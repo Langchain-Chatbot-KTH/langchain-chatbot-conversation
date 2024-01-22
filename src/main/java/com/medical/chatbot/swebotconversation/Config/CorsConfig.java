@@ -1,4 +1,4 @@
-package com.medical.chatbot.medicalchatbotconversation.Config;
+package com.medical.chatbot.swebotconversation.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

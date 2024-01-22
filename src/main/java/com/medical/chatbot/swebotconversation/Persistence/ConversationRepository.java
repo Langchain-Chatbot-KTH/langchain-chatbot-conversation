@@ -1,6 +1,6 @@
-package com.medical.chatbot.medicalchatbotconversation.Persistence;
+package com.medical.chatbot.swebotconversation.Persistence;
 
-import com.medical.chatbot.medicalchatbotconversation.BO.Entity.Conversation;
+import com.medical.chatbot.swebotconversation.BO.Entity.Conversation;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

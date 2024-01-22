@@ -1,4 +1,4 @@
-package com.medical.chatbot.medicalchatbotconversation.BO.Entity;
+package com.medical.chatbot.swebotconversation.BO.Entity;
 
 import jakarta.persistence.*;
 

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.medical.chatbot</groupId>
-    <artifactId>medical-chatbot-conversation</artifactId>
+    <artifactId>swebot-chatbot-conversation</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>medical-chatbot-conversation</name>
     <description>medical-chatbot-conversation</description>

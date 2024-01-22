@@ -1,9 +1,9 @@
-package com.medical.chatbot.medicalchatbotconversation.BO.Services;
+package com.medical.chatbot.swebotconversation.BO.Services;
 
-import com.medical.chatbot.medicalchatbotconversation.BO.Entity.Conversation;
-import com.medical.chatbot.medicalchatbotconversation.BO.Entity.Message;
-import com.medical.chatbot.medicalchatbotconversation.Persistence.ConversationRepository;
-import com.medical.chatbot.medicalchatbotconversation.Persistence.MessageRepository;
+import com.medical.chatbot.swebotconversation.BO.Entity.Conversation;
+import com.medical.chatbot.swebotconversation.BO.Entity.Message;
+import com.medical.chatbot.swebotconversation.Persistence.ConversationRepository;
+import com.medical.chatbot.swebotconversation.Persistence.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
