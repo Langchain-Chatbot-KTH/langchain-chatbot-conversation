@@ -1,4 +1,4 @@
-# Medical Chatbot Conversation API
+# SweBot Conversation API
 
 This repository contains a Spring Boot application for a Medical Chatbot Conversation API. The API manages conversations and messages between the medical chatbot and users.
 
