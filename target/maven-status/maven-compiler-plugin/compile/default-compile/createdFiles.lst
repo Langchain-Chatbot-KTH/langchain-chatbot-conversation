@@ -1,0 +1,8 @@
+com\medical\chatbot\swebotconversation\BO\Entity\Message.class
+com\medical\chatbot\swebotconversation\Persistence\MessageRepository.class
+com\medical\chatbot\swebotconversation\Config\CorsConfig.class
+com\medical\chatbot\swebotconversation\BO\Entity\Conversation.class
+com\medical\chatbot\swebotconversation\API\Controller.class
+com\medical\chatbot\swebotconversation\Persistence\ConversationRepository.class
+com\medical\chatbot\swebotconversation\SweBotConversationApplication.class
+com\medical\chatbot\swebotconversation\BO\Services\ConversationService.class
