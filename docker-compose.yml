@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  backend:
+    image: samuelteg/swebot_chatbot_conversation:v1.0
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://vm.cloud.cbh.kth.se:2776/ChatbotMessages
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: PASSWORD123
+    container_name: SweBotAdmin
+    hostname: SweBotAdmin
+    networks:
+      - mysql-net
+  db:
+    image: mysql
+    restart: always
+    container_name: mysql
+    hostname: db
+    networks:
+      - mysql-net
+    volumes:
+      - db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: PASSWORD123
+      MYSQL_DATABASE: ChatbotMessages
+    ports:
+      - "3307:3306"
+
+#docker network create mysql-net
+networks:
+  mysql-net:
+    external: true
+
+volumes:
+  db:
