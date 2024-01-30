@@ -2,7 +2,7 @@ version: '3'
 
 services:
   backend:
-    image: samuelteg/swebot_chatbot_conversation:v1.0
+    image: samuelteg/swebot_chatbot_conversation:v0.1
     ports:
       - "8080:8080"
     depends_on:
