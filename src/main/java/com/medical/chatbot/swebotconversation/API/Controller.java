@@ -49,6 +49,14 @@ public class Controller {
         return conversationService.sendMessage(conversationId, content, senderId);
     }
 
+    @PostMapping("/messages/{messageId}/addText")
+    public Conversation addTextToMessage(
+            @PathVariable Long messageId,
+            @RequestParam String additionalText
+    ) {
+        return conversationService.addTextToMessage(messageId, additionalText);
+    }
+
     @GetMapping("/{conversationId}/messages")
     public List<Message> getMessagesInConversation(@PathVariable Long conversationId) {
         return conversationService.getMessagesInConversation(conversationId);
