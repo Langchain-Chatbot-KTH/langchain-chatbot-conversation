@@ -74,7 +74,7 @@ public class ConversationService {
         if (optionalMessage.isPresent()) {
             Message message = optionalMessage.get();
             String currentContent = message.getContent();
-            String updatedContent = currentContent + " " + additionalText;
+            String updatedContent = currentContent + additionalText;
             message.setContent(updatedContent);
             messageRepository.save(message);
             return message.getConversation();
