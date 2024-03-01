@@ -52,8 +52,7 @@ public class Controller {
     @PostMapping("/messages/{messageId}/addText")
     public Conversation addTextToMessage(
             @PathVariable Long messageId,
-            @RequestParam String additionalText
-    ) {
+            @RequestParam String additionalText) {
         return conversationService.addTextToMessage(messageId, additionalText);
     }
 
